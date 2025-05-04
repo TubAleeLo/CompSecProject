@@ -25,7 +25,9 @@ It combines authenticated encryption, passphrase-based key derivation, and a sim
 
 ## ⚙️ Dependencies
 
-- Pycryptodome, command to install in bash: pip install -r requirements.txt
+- Pycryptodome, command to install in bash:
+    ```bash
+    pip install -r requirements.txt
 
 
 ---
@@ -41,8 +43,12 @@ It combines authenticated encryption, passphrase-based key derivation, and a sim
 ---
 
 ## 🚀 Usage
-- Start the server (Alice): python gui.py
-- Start the client (Bob), replacing <server_ip> with Alice's address: python gui.py <server_ip>
+- Start the server (Alice):
+    ```bash
+    python gui.py
+- Start the client (Bob), replacing <server_ip> with Alice's address:
+    ```bash
+    python gui.py <server_ip>
 - Enter the same passphrase on both sides when prompted.
 - Type a message and press Enter or cclick Send
 - Click Rekey Now (or let it auto-rekey every 20 messages) to rotate the encyption key.
