@@ -29,7 +29,6 @@ It combines authenticated encryption, passphrase-based key derivation, and a sim
     ```bash
     pip install -r requirements.txt
 
-
 ---
 
 ## 📦 Installation
