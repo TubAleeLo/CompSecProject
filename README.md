@@ -1,4 +1,4 @@
-# Secure Instant P2P Chat
+# Secure Instant P2P Chat - Jacob Dearborn, Jason Khuu, Tub A. Lo
 
 A lightweight, Python-based secure instant messaging tool for two peers (Alice & Bob).
 It combines authenticated encryption, passphrase-based key derivation, and a simple GUI for ease of use.
